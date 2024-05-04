@@ -9,7 +9,6 @@ public abstract class Book implements BookOperations{
         this.title = title;
         this.author = author;
         this.year = year;
-        this.borrowed = false;
     }
 
     public String getTitle() {
